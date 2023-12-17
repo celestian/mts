@@ -1,2 +1,3 @@
 idf_component_register(SRCS "kts.c"
-                    INCLUDE_DIRS ".")
+                            "apps.c"
+                       INCLUDE_DIRS "." "include")
