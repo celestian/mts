@@ -45,7 +45,7 @@ then
 elif [ "$1" == "kts" ] && [ "$2" == "flash" ]
 then
 
-    idf.py -C ${SOURCE_PATH}/kts -p ${MC0} flash monitor
+    idf.py -C ${SOURCE_PATH}/kts -p ${MCU0} flash monitor
 
 elif [ "$1" == "cts" ] && [ "$2" == "build" ]
 then
@@ -55,6 +55,6 @@ then
 elif [ "$1" == "cts" ] && [ "$2" == "flash" ]
 then
 
-    idf.py -C ${SOURCE_PATH}/kts -p ${MC1} flash monitor
+    idf.py -C ${SOURCE_PATH}/kts -p ${MCU1} flash monitor
 
 fi

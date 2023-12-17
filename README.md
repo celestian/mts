@@ -26,3 +26,4 @@ sudo usermod -a -G dialout $USER
 * [ESP32 S3 PIN layout](https://docs.espressif.com/projects/esp-idf/en/v5.0/esp32s3/_images/ESP32-S3_DevKitC-1_pinlayout_v1.1.jpg)
 * [C reference](https://en.cppreference.com/w/c)
 * [ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/v5.1.2/esp32s3/index.html)
+* [BLE MESH Terminology](https://docs.espressif.com/projects/esp-idf/en/v5.1.2/esp32s3/api-guides/esp-ble-mesh/ble-mesh-terminology.html)
